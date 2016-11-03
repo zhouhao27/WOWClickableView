@@ -18,6 +18,7 @@ class ViewController: UIViewController , WOWClickableDelegate, UITableViewDataSo
      
         clickableView.userInfo = String("test") as Any
         clickableView.delegate = self
+        clickableView.backgroudImage = UIImage(named: "banner3")
         
         self.tableView.dataSource = self
         self.tableView.delegate = self

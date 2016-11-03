@@ -36,18 +36,17 @@ class WOWClickableView: UIView {
     public var backgroudImage : UIImage? {
         didSet {
             self._backgroundImageView.image = backgroudImage
+            if let _ = _backgroundImageView.highlightedImage {
+                // need to upgrade to
+                updateHightlightedImage()
+            }
         }
     }
     
     @IBInspectable
     public var backgroundHighlightTintColor : UIColor = UIColor.clear {
         didSet {
-            if let backImage = self._backgroundImageView.image {
-                if let tint = backImage.colorizeImage(color: self.backgroundHighlightTintColor) {
-                    self._backgroundImageView.highlightedImage = tint
-                }
-                //self._backgroundImageView.highlightedImage = backImage.tint(color: backgroundHighlightTintColor)
-            }
+            updateHightlightedImage()
         }
     }
     
@@ -151,6 +150,14 @@ class WOWClickableView: UIView {
         self._descriptionLabel.textColor = self.textColor
         self.textFontSize = 10
         _labelContainer.addSubview(self._descriptionLabel)
+    }
+    
+    private func updateHightlightedImage() {
+        if let backImage = self._backgroundImageView.image {
+            if let tint = backImage.colorizeImage(color: self.backgroundHighlightTintColor) {
+                self._backgroundImageView.highlightedImage = tint
+            }
+        }
     }
     
     override func layoutSubviews() {
