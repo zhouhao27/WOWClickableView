@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380F8F9D1DCB18AB0027FEF7 /* UIImage+Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F8F9C1DCB18AB0027FEF7 /* UIImage+Tint.swift */; };
+		38F2B4831DCB097200025244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2B4821DCB097200025244 /* AppDelegate.swift */; };
+		38F2B4851DCB097200025244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2B4841DCB097200025244 /* ViewController.swift */; };
+		38F2B4881DCB097200025244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F2B4861DCB097200025244 /* Main.storyboard */; };
+		38F2B48A1DCB097200025244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F2B4891DCB097200025244 /* Assets.xcassets */; };
+		38F2B48D1DCB097200025244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F2B48B1DCB097200025244 /* LaunchScreen.storyboard */; };
+		38F2B4951DCB098F00025244 /* WOWClickableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F2B4941DCB098F00025244 /* WOWClickableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380F8F9C1DCB18AB0027FEF7 /* UIImage+Tint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Tint.swift"; sourceTree = "<group>"; };
+		38F2B47F1DCB097200025244 /* WOWClickableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWClickableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F2B4821DCB097200025244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38F2B4841DCB097200025244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38F2B4871DCB097200025244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38F2B4891DCB097200025244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38F2B48C1DCB097200025244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38F2B48E1DCB097200025244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F2B4941DCB098F00025244 /* WOWClickableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOWClickableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38F2B47C1DCB097200025244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F2B4761DCB097200025244 = {
+			isa = PBXGroup;
+			children = (
+				38F2B4811DCB097200025244 /* WOWClickableView */,
+				38F2B4801DCB097200025244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38F2B4801DCB097200025244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38F2B47F1DCB097200025244 /* WOWClickableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38F2B4811DCB097200025244 /* WOWClickableView */ = {
+			isa = PBXGroup;
+			children = (
+				380F8F9C1DCB18AB0027FEF7 /* UIImage+Tint.swift */,
+				38F2B4821DCB097200025244 /* AppDelegate.swift */,
+				38F2B4841DCB097200025244 /* ViewController.swift */,
+				38F2B4861DCB097200025244 /* Main.storyboard */,
+				38F2B4891DCB097200025244 /* Assets.xcassets */,
+				38F2B48B1DCB097200025244 /* LaunchScreen.storyboard */,
+				38F2B48E1DCB097200025244 /* Info.plist */,
+				38F2B4941DCB098F00025244 /* WOWClickableView.swift */,
+			);
+			path = WOWClickableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38F2B47E1DCB097200025244 /* WOWClickableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38F2B4911DCB097200025244 /* Build configuration list for PBXNativeTarget "WOWClickableView" */;
+			buildPhases = (
+				38F2B47B1DCB097200025244 /* Sources */,
+				38F2B47C1DCB097200025244 /* Frameworks */,
+				38F2B47D1DCB097200025244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WOWClickableView;
+			productName = WOWClickableView;
+			productReference = 38F2B47F1DCB097200025244 /* WOWClickableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38F2B4771DCB097200025244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Zhou Hao";
+				TargetAttributes = {
+					38F2B47E1DCB097200025244 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N39FB4CHYV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 38F2B47A1DCB097200025244 /* Build configuration list for PBXProject "WOWClickableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38F2B4761DCB097200025244;
+			productRefGroup = 38F2B4801DCB097200025244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38F2B47E1DCB097200025244 /* WOWClickableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38F2B47D1DCB097200025244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F2B48D1DCB097200025244 /* LaunchScreen.storyboard in Resources */,
+				38F2B48A1DCB097200025244 /* Assets.xcassets in Resources */,
+				38F2B4881DCB097200025244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38F2B47B1DCB097200025244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380F8F9D1DCB18AB0027FEF7 /* UIImage+Tint.swift in Sources */,
+				38F2B4851DCB097200025244 /* ViewController.swift in Sources */,
+				38F2B4831DCB097200025244 /* AppDelegate.swift in Sources */,
+				38F2B4951DCB098F00025244 /* WOWClickableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38F2B4861DCB097200025244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F2B4871DCB097200025244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38F2B48B1DCB097200025244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38F2B48C1DCB097200025244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38F2B48F1DCB097200025244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38F2B4901DCB097200025244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38F2B4921DCB097200025244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N39FB4CHYV;
+				INFOPLIST_FILE = WOWClickableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowtv.WOWClickableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38F2B4931DCB097200025244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N39FB4CHYV;
+				INFOPLIST_FILE = WOWClickableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowtv.WOWClickableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38F2B47A1DCB097200025244 /* Build configuration list for PBXProject "WOWClickableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2B48F1DCB097200025244 /* Debug */,
+				38F2B4901DCB097200025244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38F2B4911DCB097200025244 /* Build configuration list for PBXNativeTarget "WOWClickableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38F2B4921DCB097200025244 /* Debug */,
+				38F2B4931DCB097200025244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38F2B4771DCB097200025244 /* Project object */;
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WOWClickableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3C2-CJ-qGl" customClass="WOWClickableView" customModule="WOWClickableView" customModuleProvider="target">
+                                <rect key="frame" x="16" y="46" width="343" height="128"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DjQ-J8-w4K"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="backgroudImage" value="category1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textBackgroundColor">
+                                        <color key="value" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="This is a label.This is a very long label.This is a label.This is a label.This is a label."/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textFontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="horizontalPadding">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textHeight">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundHighlightTintColor">
+                                        <color key="value" white="0.0" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SK7-pP-xZS">
+                                <rect key="frame" x="16" y="192" width="343" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="120" id="M4e-VE-Y0h" customClass="Cell" customModule="WOWClickableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M4e-VE-Y0h" id="Hwp-Fj-Cx3">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="119"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZ5-6t-RRw" customClass="WOWClickableView" customModule="WOWClickableView" customModuleProvider="target">
+                                                    <rect key="frame" x="13" y="5" width="160" height="109.5"/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="backgroudImage" value="category1"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="horizontalPadding">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="This is category 1."/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="textFontSize">
+                                                            <real key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textBackgroundColor">
+                                                            <color key="value" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-se-dao" customClass="WOWClickableView" customModule="WOWClickableView" customModuleProvider="target">
+                                                    <rect key="frame" x="178" y="5" width="160" height="109.5"/>
+                                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="backgroudImage" value="category1"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="horizontalPadding">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="This is  category 2."/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="textFontSize">
+                                                            <real key="value" value="8"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textBackgroundColor">
+                                                            <color key="value" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="f0W-se-dao" secondAttribute="bottom" constant="5" id="HNs-Dp-hXQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="eZ5-6t-RRw" secondAttribute="bottom" constant="5" id="MTa-DG-LZ5"/>
+                                                <constraint firstItem="f0W-se-dao" firstAttribute="top" secondItem="Hwp-Fj-Cx3" secondAttribute="top" constant="5" id="caP-qp-Z43"/>
+                                                <constraint firstItem="f0W-se-dao" firstAttribute="leading" secondItem="eZ5-6t-RRw" secondAttribute="trailing" constant="5" id="ebe-Nt-diY"/>
+                                                <constraint firstAttribute="trailing" secondItem="f0W-se-dao" secondAttribute="trailing" constant="5" id="pjn-BI-cey"/>
+                                                <constraint firstItem="eZ5-6t-RRw" firstAttribute="top" secondItem="Hwp-Fj-Cx3" secondAttribute="top" constant="5" id="tjJ-nJ-VWT"/>
+                                                <constraint firstItem="eZ5-6t-RRw" firstAttribute="width" secondItem="f0W-se-dao" secondAttribute="width" id="uW0-xC-fdG"/>
+                                                <constraint firstItem="eZ5-6t-RRw" firstAttribute="leading" secondItem="Hwp-Fj-Cx3" secondAttribute="leadingMargin" constant="5" id="zTw-9v-P19"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cell1" destination="eZ5-6t-RRw" id="unQ-Sf-AZh"/>
+                                            <outlet property="cell2" destination="f0W-se-dao" id="u7O-Na-LnZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3C2-CJ-qGl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Gws-Iv-xNK"/>
+                            <constraint firstItem="SK7-pP-xZS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aGA-6h-8C0"/>
+                            <constraint firstItem="3C2-CJ-qGl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="aht-2L-FxF"/>
+                            <constraint firstItem="SK7-pP-xZS" firstAttribute="top" secondItem="3C2-CJ-qGl" secondAttribute="bottom" constant="18" id="djh-ec-YCn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SK7-pP-xZS" secondAttribute="bottom" constant="20" id="eFe-fM-cci"/>
+                            <constraint firstItem="SK7-pP-xZS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pMN-FJ-en5"/>
+                            <constraint firstItem="3C2-CJ-qGl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sYu-Td-buI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clickableView" destination="3C2-CJ-qGl" id="g8p-OI-3OB"/>
+                        <outlet property="tableView" destination="SK7-pP-xZS" id="FMk-cM-DmS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="category1" width="165" height="98"/>
+    </resources>
+</document>
