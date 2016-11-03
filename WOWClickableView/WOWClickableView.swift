@@ -100,11 +100,7 @@ class WOWClickableView: UIView {
         }
     }
     
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        setup()
-//    }
-    
+    // MARK: - UIView methods overrides
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
@@ -124,6 +120,13 @@ class WOWClickableView: UIView {
         self.delegate?.onClick(view: self, userInfo: userInfo)
     }
     
+    override func layoutSubviews() {
+        self._backgroundImageView.frame = self.bounds
+        self._labelContainer.frame = CGRect(x:0,y:self.bounds.size.height-self.textHeight,width:self.bounds.size.width,height:self.textHeight)
+        self._descriptionLabel.frame = CGRect(x:self.horizontalPadding,y:0,width:self._labelContainer.frame.size.width-2*self.horizontalPadding, height: self._labelContainer.frame.size.height)
+    }
+
+    // MARK: - private methods
     private func setup() {
         
         self.clipsToBounds = true
@@ -159,12 +162,6 @@ class WOWClickableView: UIView {
             }
         }
     }
-    
-    override func layoutSubviews() {
-        self._backgroundImageView.frame = self.bounds
-        self._labelContainer.frame = CGRect(x:0,y:self.bounds.size.height-self.textHeight,width:self.bounds.size.width,height:self.textHeight)
-        self._descriptionLabel.frame = CGRect(x:self.horizontalPadding,y:0,width:self._labelContainer.frame.size.width-2*self.horizontalPadding, height: self._labelContainer.frame.size.height)
-    }
-    
+        
 }
 
