@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		380F8F9C1DCB18AB0027FEF7 /* UIImage+Tint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Tint.swift"; sourceTree = "<group>"; };
+		380F8F9E1DCB1DF00027FEF7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		38F2B47F1DCB097200025244 /* WOWClickableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWClickableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F2B4821DCB097200025244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F2B4841DCB097200025244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		38F2B4761DCB097200025244 = {
 			isa = PBXGroup;
 			children = (
+				380F8F9E1DCB1DF00027FEF7 /* README.md */,
 				38F2B4811DCB097200025244 /* WOWClickableView */,
 				38F2B4801DCB097200025244 /* Products */,
 			);

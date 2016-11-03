@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController , WOWClickableDelegate, UITableViewDataSource {
+class ViewController: UIViewController , WOWClickableDelegate, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var clickableView: WOWClickableView!
@@ -20,6 +20,7 @@ class ViewController: UIViewController , WOWClickableDelegate, UITableViewDataSo
         clickableView.delegate = self
         
         self.tableView.dataSource = self
+        self.tableView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,6 +46,10 @@ class ViewController: UIViewController , WOWClickableDelegate, UITableViewDataSo
         cell.cell2.delegate = self
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 120.0
+    }    
 
 }
 
